@@ -1,0 +1,266 @@
+{
+  "morbilidad_ssa": {
+    "n_in": 4672,
+    "n_out": 8,
+    "columnas_finales": [
+      "cve_estado",
+      "des_estado",
+      "cve_diagno",
+      "des_diagno",
+      "acumulado",
+      "periodo",
+      "menores_1",
+      "de01_a_04",
+      "de05_a_09",
+      "de10_a_14",
+      "de15_a_19",
+      "de20_a_24",
+      "de25_a_44",
+      "de45_a_49",
+      "de50_a_59",
+      "de60_a_64",
+      "de65_y_mas",
+      "se_ignoran",
+      "menores_1f",
+      "de01_a_04f",
+      "de05_a_09f",
+      "de10_a_14f",
+      "de15_a_19f",
+      "de20_a_24f",
+      "de25_a_44f",
+      "de45_a_49f",
+      "de50_a_59f",
+      "de60_a_64f",
+      "de65_y_maf",
+      "se_ignoraf",
+      "totalm",
+      "totalf",
+      "cve_entidad"
+    ],
+    "transformaciones": [
+      "filtro_cdmx",
+      "filtro_hidricas",
+      "seleccion_columnas",
+      "snake_case"
+    ]
+  },
+  "inegi_iter": {
+    "n_in": 195662,
+    "n_out": 494,
+    "columnas_finales": [
+      "entidad",
+      "nom_ent",
+      "mun",
+      "nom_mun",
+      "loc",
+      "nom_loc",
+      "latitud",
+      "longitud",
+      "altitud",
+      "tamloc",
+      "pobtot",
+      "pob0_14",
+      "pob15_64",
+      "pob65_mas",
+      "vivtot",
+      "tvivparhab",
+      "vph_aguadv",
+      "vph_aguafv",
+      "vph_tinaco",
+      "vph_cister",
+      "vph_drenaj",
+      "vph_nodren",
+      "vph_c_serv",
+      "vph_excsa",
+      "cve_alcaldia"
+    ],
+    "transformaciones": [
+      "filtro_cdmx",
+      "filtro_localidades_reales",
+      "parseo_coords_dms",
+      "coercion_numerica",
+      "drop_confidenciales",
+      "asignacion_cve_alcaldia"
+    ]
+  },
+  "coneval_pobreza": {
+    "n_in": 29528,
+    "n_out": 190,
+    "columnas_finales": [
+      "clave_entidad",
+      "entidad",
+      "clave_municipio",
+      "municipio",
+      "cve_alcaldia",
+      "anio",
+      "periodo",
+      "grupo",
+      "poblacion",
+      "pobreza_porcentaje",
+      "carencia_calidad_espacios_vivienda_porcentaje",
+      "ingreso_inferior_a_lpi_porcentaje"
+    ],
+    "transformaciones": [
+      "filtro_cdmx",
+      "reemplazo_-999",
+      "filtro_rango_0_100",
+      "drop_carencia_servicios",
+      "impute_calidad_espacios",
+      "cve_alcaldia"
+    ]
+  },
+  "sepomex": {
+    "n_in": 1526,
+    "n_out": 1526,
+    "columnas_finales": [
+      "nom_estado",
+      "cve_estado",
+      "nom_alcaldia",
+      "cve_alcaldia",
+      "nom_colonia",
+      "codigo_postal",
+      "nom_alcaldia_norm",
+      "nom_colonia_norm"
+    ],
+    "transformaciones": [
+      "normalizar_cp",
+      "filtro_cp_cdmx",
+      "padding_claves",
+      "norm_alcaldia_colonia"
+    ]
+  },
+  "sacmex_reportes": {
+    "n_in": 313756,
+    "n_out": 264303,
+    "columnas_finales": [
+      "folio_incidente",
+      "id_reporte",
+      "fecha_registro_incidente",
+      "fecha_reporte",
+      "hora_reporte",
+      "lag_dias",
+      "flag_lag_largo",
+      "clasificacion",
+      "reporte",
+      "medio_recepcion",
+      "alcaldia_catalogo",
+      "alcaldia_norm",
+      "cve_alcaldia",
+      "colonia_catalogo",
+      "colonia_norm",
+      "latitud",
+      "longitud",
+      "flag_geo_fuera_cdmx"
+    ],
+    "transformaciones": [
+      "drop_duplicados_completos",
+      "parseo_fecha_robusto",
+      "drop_sin_fecha_reporte",
+      "drop_lag_negativo",
+      "flag_lag_largo",
+      "filtro_2018_2024",
+      "flag_geo_fuera_cdmx",
+      "norm_texto_y_cve_alcaldia"
+    ]
+  },
+  "conagua_sitios": {
+    "n_in": 7771,
+    "n_out": 7756,
+    "columnas_finales": [
+      "clave_sitio",
+      "nombre_del_sitio",
+      "cuenca",
+      "clave_acuifero",
+      "acuifero",
+      "organismo_cuenca",
+      "direccion_local",
+      "estado",
+      "municipio",
+      "cuerpo_de_agua",
+      "tipo_de_cuerpo_de_agua",
+      "subtipo_cuerpo_agua",
+      "latitud",
+      "longitud",
+      "estado_norm",
+      "es_cdmx"
+    ],
+    "transformaciones": [
+      "coercion_coords",
+      "filtro_mexico",
+      "flag_es_cdmx",
+      "snake_case"
+    ]
+  },
+  "conagua_result": {
+    "n_in": 129235,
+    "n_out": 196,
+    "n_columnas_final": 97,
+    "transformaciones": [
+      "filtro_sistema_hidraulico_cdmx",
+      "drop_columnas_>95%",
+      "parseo_quimico",
+      "regla_dbo_dqo",
+      "winsorizing_diferencial",
+      "knn_impute_1_cols",
+      "snake_case"
+    ],
+    "tabla_decision": {
+      "DROP": 380,
+      "FLAG": 54,
+      "IMPUTE": 27,
+      "KEEP": 13
+    },
+    "subsistemas_incluidos": [
+      "cdmx_local",
+      "cutzamala_valle_bravo",
+      "cutzamala_villa_victoria",
+      "cutzamala_colorines",
+      "cutzamala_el_bosque",
+      "cutzamala_tuxpan",
+      "cutzamala_rio",
+      "madin",
+      "lerma"
+    ],
+    "winsorizing_p99": {
+      "TEMP_AMB": {
+        "p99": 36.0,
+        "n_capped": 1
+      },
+      "TEMP_AGUA": {
+        "p99": 31.1496,
+        "n_capped": 2
+      }
+    },
+    "n_flags_outlier_nom127": 0
+  },
+  "_meta": {
+    "generado_en": "2026-05-01T13:34:24",
+    "project_root": "c:\\Users\\PC\\Desktop\\Antigravity\\ProyectoFinal_CalidadDatos",
+    "datos_crudos": "c:\\Users\\PC\\Desktop\\Antigravity\\ProyectoFinal_CalidadDatos\\datos\\datos_crudos",
+    "datos_limpios": "c:\\Users\\PC\\Desktop\\Antigravity\\ProyectoFinal_CalidadDatos\\datos\\datos_limpios",
+    "archivos_salida": {
+      "morbilidad": "morbilidad_cdmx_limpio.csv",
+      "inegi": "inegi_cdmx_limpio.csv",
+      "coneval": "coneval_cdmx_limpio.csv",
+      "sepomex": "sepomex_cdmx_limpio.csv",
+      "sacmex": "sacmex_cdmx_limpio.csv",
+      "conagua_sitios": "conagua_sitios_limpio.csv",
+      "conagua_resultados": "conagua_resultados_cdmx_limpio.csv",
+      "catalogo_alcaldias": "catalogo_alcaldias_cdmx.csv",
+      "log_limpieza": "_log_limpieza.json"
+    },
+    "constantes": {
+      "CDMX_BBOX": {
+        "lat_min": 19.05,
+        "lat_max": 19.59,
+        "lon_min": -99.36,
+        "lon_max": -98.94
+      },
+      "DECISION_THRESHOLDS": {
+        "DROP": 95.0,
+        "FLAG": 30.0,
+        "IMPUTE": 5.0
+      }
+    }
+  }
+}
