@@ -1,0 +1,48 @@
+﻿id_planta,nombre,cve_alcaldia,latitud,longitud,origen_coords,caudal_l_s,proceso
+PLANTA_000,Trabajadores del Hierro,002,19.478668,-99.1761113,centroide_alcaldia,50.0,Filtración directa
+PLANTA_001,Deportivo Ferrería,002,19.478668,-99.1761113,centroide_alcaldia,50.0,Filtración directa
+PLANTA_002,Jardines del Pedregal 5,005,19.4924276,-99.12486760626705,centroide_alcaldia,80.0,Filtración directa
+PLANTA_003,Panamericana,005,19.4924276,-99.12486760626705,centroide_alcaldia,50.0,Filtración directa
+PLANTA_004,La Libertad,005,19.4924276,-99.12486760626705,centroide_alcaldia,50.0,Ósmosis inversa
+PLANTA_005,Parque Vía Vallejo,005,19.4924276,-99.12486760626705,centroide_alcaldia,40.0,Filtración directa
+PLANTA_006,Tlacotal,006,19.3921182652006,-99.1106539964676,centroide_alcaldia,60.0,Ósmosis inversa
+PLANTA_007,Viga 4,006,19.3921182652006,-99.1106539964676,centroide_alcaldia,60.0,Filtración directa
+PLANTA_008,Ciudad Deportiva 2,006,19.3921182652006,-99.1106539964676,centroide_alcaldia,100.0,Filtración directa
+PLANTA_009,Carlos L. Gracidas,007,19.3503,-99.07012878888855,centroide_alcaldia,38.0,Filtración directa
+PLANTA_010,Cerro de La Estrella 2,007,19.3503,-99.07012878888855,centroide_alcaldia,60.0,Filtración directa
+PLANTA_011,Granjas San Antonio,007,19.3503,-99.07012878888855,centroide_alcaldia,60.0,Filtración directa
+PLANTA_012,Iztapalapa 1,007,19.3503,-99.07012878888855,centroide_alcaldia,60.0,Ósmosis inversa
+PLANTA_013,Iztapalapa 2,007,19.3503,-99.07012878888855,centroide_alcaldia,60.0,Filtración directa
+PLANTA_014,La Caldera,007,19.3503,-99.07012878888855,centroide_alcaldia,700.0,Filtración directa
+PLANTA_015,Purísima 2,007,19.3503,-99.07012878888855,centroide_alcaldia,60.0,Filtración directa
+PLANTA_016,Purísima 3 Y 7,007,19.3503,-99.07012878888855,centroide_alcaldia,135.0,Ósmosis inversa
+PLANTA_017,Santa Catarina 11,007,19.3503,-99.07012878888855,centroide_alcaldia,40.0,Filtración directa
+PLANTA_018,Santa Cruz Meyehualco,007,19.3503,-99.07012878888855,centroide_alcaldia,120.0,Ósmosis inversa
+PLANTA_019,Viga 2,007,19.3503,-99.07012878888855,centroide_alcaldia,40.0,Filtración directa
+PLANTA_020,Panteón Civil,007,19.3503,-99.07012878888855,centroide_alcaldia,180.0,Filtración directa
+PLANTA_021,Xaltepec,007,19.3503,-99.07012878888855,centroide_alcaldia,500.0,Filtración directa
+PLANTA_022,Santa Catarina 10,007,19.3503,-99.07012878888855,centroide_alcaldia,60.0,Ósmosis inversa
+PLANTA_023,Santa Catarina 13,007,19.3503,-99.07012878888855,centroide_alcaldia,60.0,Ósmosis inversa
+PLANTA_024,San Lorenzo Tezonco,007,19.3503,-99.07012878888855,centroide_alcaldia,6.0,Ósmosis inversa
+PLANTA_025,"San Lorenzo Tezonco
+Nuevo",007,19.3503,-99.07012878888855,centroide_alcaldia,60.0,Ósmosis inversa
+PLANTA_026,Peñón 2,007,19.3503,-99.07012878888855,centroide_alcaldia,50.0,Ósmosis inversa
+PLANTA_027,Tecomitl 2,007,19.3503,-99.07012878888855,centroide_alcaldia,60.0,Ósmosis inversa
+PLANTA_028,Auxiliar Xotepingo 4C,007,19.3503,-99.07012878888855,centroide_alcaldia,50.0,Filtración directa
+PLANTA_029,Parque Las Antenas,007,19.3503,-99.07012878888855,centroide_alcaldia,30.0,Filtración directa
+PLANTA_030,Agrícola Oriental,007,19.3503,-99.07012878888855,centroide_alcaldia,240.0,Ósmosis inversa
+PLANTA_031,Río Magdalena,,,,centroide_alcaldia,210.0,Filtración directa
+PLANTA_032,Río Magdalena 2,,,,centroide_alcaldia,200.0,Filtración directa
+PLANTA_033,Santa Catarina,011,19.288470542918006,-99.0126112,centroide_alcaldia,500.0,Ósmosis inversa
+PLANTA_034,Santa Catarina 4,011,19.288470542918006,-99.0126112,centroide_alcaldia,60.0,Ósmosis inversa
+PLANTA_035,"Acueducto Tláhuac-La
+Caldera",011,19.288470542918006,-99.0126112,centroide_alcaldia,40.0,Ósmosis inversa
+PLANTA_036,Tecomitl 18,011,19.288470542918006,-99.0126112,centroide_alcaldia,50.0,Ósmosis inversa
+PLANTA_037,Balbuena 2,017,19.433006552726297,-99.10851590271758,centroide_alcaldia,40.0,Filtración directa
+PLANTA_038,Peñón de Los Baños,017,19.433006552726297,-99.10851590271758,centroide_alcaldia,50.0,Ósmosis inversa
+PLANTA_039,Santa Anita,017,19.433006552726297,-99.10851590271758,centroide_alcaldia,40.0,Filtración directa
+PLANTA_040,Escudo Nacional 2,013,19.253985126317488,-99.1055559,centroide_alcaldia,40.0,Filtración directa
+PLANTA_041,S-13,013,19.253985126317488,-99.1055559,centroide_alcaldia,40.0,Adsorción
+PLANTA_042,Cerillos 2,013,19.253985126317488,-99.1055559,centroide_alcaldia,40.0,Filtración directa
+PLANTA_043,Cerillos 3,013,19.253985126317488,-99.1055559,centroide_alcaldia,40.0,Filtración directa
+PLANTA_044,R-11,013,19.253985126317488,-99.1055559,centroide_alcaldia,40.0,Filtración directa
