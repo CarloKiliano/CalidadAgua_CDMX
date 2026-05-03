@@ -1,48 +1,97 @@
-﻿id_planta,nombre,cve_alcaldia,latitud,longitud,origen_coords,caudal_l_s,proceso
-PLANTA_000,Trabajadores del Hierro,002,19.478668,-99.1761113,centroide_alcaldia,50.0,Filtración directa
-PLANTA_001,Deportivo Ferrería,002,19.478668,-99.1761113,centroide_alcaldia,50.0,Filtración directa
-PLANTA_002,Jardines del Pedregal 5,005,19.4924276,-99.12486760626705,centroide_alcaldia,80.0,Filtración directa
-PLANTA_003,Panamericana,005,19.4924276,-99.12486760626705,centroide_alcaldia,50.0,Filtración directa
-PLANTA_004,La Libertad,005,19.4924276,-99.12486760626705,centroide_alcaldia,50.0,Ósmosis inversa
-PLANTA_005,Parque Vía Vallejo,005,19.4924276,-99.12486760626705,centroide_alcaldia,40.0,Filtración directa
-PLANTA_006,Tlacotal,006,19.3921182652006,-99.1106539964676,centroide_alcaldia,60.0,Ósmosis inversa
-PLANTA_007,Viga 4,006,19.3921182652006,-99.1106539964676,centroide_alcaldia,60.0,Filtración directa
-PLANTA_008,Ciudad Deportiva 2,006,19.3921182652006,-99.1106539964676,centroide_alcaldia,100.0,Filtración directa
-PLANTA_009,Carlos L. Gracidas,007,19.3503,-99.07012878888855,centroide_alcaldia,38.0,Filtración directa
-PLANTA_010,Cerro de La Estrella 2,007,19.3503,-99.07012878888855,centroide_alcaldia,60.0,Filtración directa
-PLANTA_011,Granjas San Antonio,007,19.3503,-99.07012878888855,centroide_alcaldia,60.0,Filtración directa
-PLANTA_012,Iztapalapa 1,007,19.3503,-99.07012878888855,centroide_alcaldia,60.0,Ósmosis inversa
-PLANTA_013,Iztapalapa 2,007,19.3503,-99.07012878888855,centroide_alcaldia,60.0,Filtración directa
-PLANTA_014,La Caldera,007,19.3503,-99.07012878888855,centroide_alcaldia,700.0,Filtración directa
-PLANTA_015,Purísima 2,007,19.3503,-99.07012878888855,centroide_alcaldia,60.0,Filtración directa
-PLANTA_016,Purísima 3 Y 7,007,19.3503,-99.07012878888855,centroide_alcaldia,135.0,Ósmosis inversa
-PLANTA_017,Santa Catarina 11,007,19.3503,-99.07012878888855,centroide_alcaldia,40.0,Filtración directa
-PLANTA_018,Santa Cruz Meyehualco,007,19.3503,-99.07012878888855,centroide_alcaldia,120.0,Ósmosis inversa
-PLANTA_019,Viga 2,007,19.3503,-99.07012878888855,centroide_alcaldia,40.0,Filtración directa
-PLANTA_020,Panteón Civil,007,19.3503,-99.07012878888855,centroide_alcaldia,180.0,Filtración directa
-PLANTA_021,Xaltepec,007,19.3503,-99.07012878888855,centroide_alcaldia,500.0,Filtración directa
-PLANTA_022,Santa Catarina 10,007,19.3503,-99.07012878888855,centroide_alcaldia,60.0,Ósmosis inversa
-PLANTA_023,Santa Catarina 13,007,19.3503,-99.07012878888855,centroide_alcaldia,60.0,Ósmosis inversa
-PLANTA_024,San Lorenzo Tezonco,007,19.3503,-99.07012878888855,centroide_alcaldia,6.0,Ósmosis inversa
-PLANTA_025,"San Lorenzo Tezonco
-Nuevo",007,19.3503,-99.07012878888855,centroide_alcaldia,60.0,Ósmosis inversa
-PLANTA_026,Peñón 2,007,19.3503,-99.07012878888855,centroide_alcaldia,50.0,Ósmosis inversa
-PLANTA_027,Tecomitl 2,007,19.3503,-99.07012878888855,centroide_alcaldia,60.0,Ósmosis inversa
-PLANTA_028,Auxiliar Xotepingo 4C,007,19.3503,-99.07012878888855,centroide_alcaldia,50.0,Filtración directa
-PLANTA_029,Parque Las Antenas,007,19.3503,-99.07012878888855,centroide_alcaldia,30.0,Filtración directa
-PLANTA_030,Agrícola Oriental,007,19.3503,-99.07012878888855,centroide_alcaldia,240.0,Ósmosis inversa
-PLANTA_031,Río Magdalena,,,,centroide_alcaldia,210.0,Filtración directa
-PLANTA_032,Río Magdalena 2,,,,centroide_alcaldia,200.0,Filtración directa
-PLANTA_033,Santa Catarina,011,19.288470542918006,-99.0126112,centroide_alcaldia,500.0,Ósmosis inversa
-PLANTA_034,Santa Catarina 4,011,19.288470542918006,-99.0126112,centroide_alcaldia,60.0,Ósmosis inversa
-PLANTA_035,"Acueducto Tláhuac-La
-Caldera",011,19.288470542918006,-99.0126112,centroide_alcaldia,40.0,Ósmosis inversa
-PLANTA_036,Tecomitl 18,011,19.288470542918006,-99.0126112,centroide_alcaldia,50.0,Ósmosis inversa
-PLANTA_037,Balbuena 2,017,19.433006552726297,-99.10851590271758,centroide_alcaldia,40.0,Filtración directa
-PLANTA_038,Peñón de Los Baños,017,19.433006552726297,-99.10851590271758,centroide_alcaldia,50.0,Ósmosis inversa
-PLANTA_039,Santa Anita,017,19.433006552726297,-99.10851590271758,centroide_alcaldia,40.0,Filtración directa
-PLANTA_040,Escudo Nacional 2,013,19.253985126317488,-99.1055559,centroide_alcaldia,40.0,Filtración directa
-PLANTA_041,S-13,013,19.253985126317488,-99.1055559,centroide_alcaldia,40.0,Adsorción
-PLANTA_042,Cerillos 2,013,19.253985126317488,-99.1055559,centroide_alcaldia,40.0,Filtración directa
-PLANTA_043,Cerillos 3,013,19.253985126317488,-99.1055559,centroide_alcaldia,40.0,Filtración directa
-PLANTA_044,R-11,013,19.253985126317488,-99.1055559,centroide_alcaldia,40.0,Filtración directa
+﻿municipio,localidad,nombre,proceso,"capacidad_instalada
+(l/s)","caudal_potabilizado
+(l/s)",responsable_de_la_operación_de_la_planta,cve_alcaldia,id_planta,latitud,longitud,origen_coords
+Azcapotzalco,Azcapotzalco,Trabajadores del Hierro,Filtración directa,50.0,25.0,"Secretaría de Gestión Integral del Agua
+(SEGIAGUA)",002,PLANTA_000,19.482446,-99.183013,centroide_alcaldia
+Azcapotzalco,Azcapotzalco,Deportivo Ferrería,Filtración directa,50.0,50.0,"Secretaría de Gestión Integral del Agua
+(SEGIAGUA)",002,PLANTA_001,19.482446,-99.183013,centroide_alcaldia
+Gustavo A. Madero,Gustavo A. Madero,Jardines del Pedregal 5,Filtración directa,80.0,65.0,"Secretaría de Gestión Integral del Agua
+(SEGIAGUA)",005,PLANTA_002,19.490838,-99.117266,centroide_alcaldia
+Gustavo A. Madero,Gustavo A. Madero,Panamericana,Filtración directa,50.0,34.0,"Secretaría de Gestión Integral del Agua
+(SEGIAGUA)",005,PLANTA_003,19.490838,-99.117266,centroide_alcaldia
+Gustavo A. Madero,Gustavo A. Madero,La Libertad,Ósmosis inversa,50.0,40.0,"Secretaría de Gestión Integral del Agua
+(SEGIAGUA)",005,PLANTA_004,19.490838,-99.117266,centroide_alcaldia
+Gustavo A. Madero,Gustavo A. Madero,Parque Vía Vallejo,Filtración directa,40.0,40.0,"Secretaría de Gestión Integral del Agua
+(SEGIAGUA)",005,PLANTA_005,19.490838,-99.117266,centroide_alcaldia
+Iztacalco,Iztacalco,Tlacotal,Ósmosis inversa,60.0,50.0,"Secretaría de Gestión Integral del Agua
+(SEGIAGUA)",006,PLANTA_006,19.392438,-99.106304,centroide_alcaldia
+Iztacalco,Iztacalco,Viga 4,Filtración directa,60.0,25.0,"Secretaría de Gestión Integral del Agua
+(SEGIAGUA)",006,PLANTA_007,19.392438,-99.106304,centroide_alcaldia
+Iztacalco,Iztacalco,Ciudad Deportiva 2,Filtración directa,100.0,37.0,"Secretaría de Gestión Integral del Agua
+(SEGIAGUA)",006,PLANTA_008,19.392438,-99.106304,centroide_alcaldia
+Iztapalapa,Iztapalapa,Carlos L. Gracidas,Filtración directa,38.0,38.0,"Secretaría de Gestión Integral del Agua
+(SEGIAGUA)",007,PLANTA_009,19.348835,-99.065508,centroide_alcaldia
+Iztapalapa,Iztapalapa,Cerro de La Estrella 2,Filtración directa,60.0,32.0,"Secretaría de Gestión Integral del Agua
+(SEGIAGUA)",007,PLANTA_010,19.348835,-99.065508,centroide_alcaldia
+Iztapalapa,Iztapalapa,Granjas San Antonio,Filtración directa,60.0,25.0,"Secretaría de Gestión Integral del Agua
+(SEGIAGUA)",007,PLANTA_011,19.348835,-99.065508,centroide_alcaldia
+Iztapalapa,Iztapalapa,Iztapalapa 1,Ósmosis inversa,60.0,50.0,"Secretaría de Gestión Integral del Agua
+(SEGIAGUA)",007,PLANTA_012,19.348835,-99.065508,centroide_alcaldia
+Iztapalapa,Iztapalapa,Iztapalapa 2,Filtración directa,60.0,9.0,"Secretaría de Gestión Integral del Agua
+(SEGIAGUA)",007,PLANTA_013,19.348835,-99.065508,centroide_alcaldia
+Iztapalapa,Iztapalapa,La Caldera,Filtración directa,700.0,540.0,"Secretaría de Gestión Integral del Agua
+(SEGIAGUA)",007,PLANTA_014,19.348835,-99.065508,centroide_alcaldia
+Iztapalapa,Iztapalapa,Purísima 2,Filtración directa,60.0,37.0,"Secretaría de Gestión Integral del Agua
+(SEGIAGUA)",007,PLANTA_015,19.348835,-99.065508,centroide_alcaldia
+Iztapalapa,Iztapalapa,Purísima 3 Y 7,Ósmosis inversa,135.0,70.0,"Secretaría de Gestión Integral del Agua
+(SEGIAGUA)",007,PLANTA_016,19.348835,-99.065508,centroide_alcaldia
+Iztapalapa,Iztapalapa,Santa Catarina 11,Filtración directa,40.0,40.0,"Secretaría de Gestión Integral del Agua
+(SEGIAGUA)",007,PLANTA_017,19.348835,-99.065508,centroide_alcaldia
+Iztapalapa,Iztapalapa,Santa Cruz Meyehualco,Ósmosis inversa,120.0,56.0,"Secretaría de Gestión Integral del Agua
+(SEGIAGUA)",007,PLANTA_018,19.348835,-99.065508,centroide_alcaldia
+Iztapalapa,Iztapalapa,Viga 2,Filtración directa,40.0,40.0,"Secretaría de Gestión Integral del Agua
+(SEGIAGUA)",007,PLANTA_019,19.348835,-99.065508,centroide_alcaldia
+Iztapalapa,Iztapalapa,Panteón Civil,Filtración directa,180.0,80.0,"Secretaría de Gestión Integral del Agua
+(SEGIAGUA)",007,PLANTA_020,19.348835,-99.065508,centroide_alcaldia
+Iztapalapa,Iztapalapa,Xaltepec,Filtración directa,500.0,320.0,"Secretaría de Gestión Integral del Agua
+(SEGIAGUA)",007,PLANTA_021,19.348835,-99.065508,centroide_alcaldia
+Iztapalapa,Iztapalapa,Santa Catarina 10,Ósmosis inversa,60.0,33.0,"Secretaría de Gestión Integral del Agua
+(SEGIAGUA)",007,PLANTA_022,19.348835,-99.065508,centroide_alcaldia
+Iztapalapa,Iztapalapa,Santa Catarina 13,Ósmosis inversa,60.0,50.0,"Secretaría de Gestión Integral del Agua
+(SEGIAGUA)",007,PLANTA_023,19.348835,-99.065508,centroide_alcaldia
+Iztapalapa,Iztapalapa,San Lorenzo Tezonco,Ósmosis inversa,6.0,6.0,"Secretaría de Gestión Integral del Agua
+(SEGIAGUA)",007,PLANTA_024,19.348835,-99.065508,centroide_alcaldia
+Iztapalapa,Iztapalapa,"San Lorenzo Tezonco
+Nuevo",Ósmosis inversa,60.0,12.0,"Secretaría de Gestión Integral del Agua
+(SEGIAGUA)",007,PLANTA_025,19.348835,-99.065508,centroide_alcaldia
+Iztapalapa,Iztapalapa,Peñón 2,Ósmosis inversa,50.0,50.0,"Secretaría de Gestión Integral del Agua
+(SEGIAGUA)",007,PLANTA_026,19.348835,-99.065508,centroide_alcaldia
+Iztapalapa,Iztapalapa,Tecomitl 2,Ósmosis inversa,60.0,30.0,"Secretaría de Gestión Integral del Agua
+(SEGIAGUA)",007,PLANTA_027,19.348835,-99.065508,centroide_alcaldia
+Iztapalapa,Iztapalapa,Auxiliar Xotepingo 4C,Filtración directa,50.0,50.0,"Secretaría de Gestión Integral del Agua
+(SEGIAGUA)",007,PLANTA_028,19.348835,-99.065508,centroide_alcaldia
+Iztapalapa,Iztapalapa,Parque Las Antenas,Filtración directa,30.0,22.0,"Secretaría de Gestión Integral del Agua
+(SEGIAGUA)",007,PLANTA_029,19.348835,-99.065508,centroide_alcaldia
+Iztapalapa,Iztapalapa 2,Agrícola Oriental,Ósmosis inversa,240.0,200.0,"Secretaría de Gestión Integral del Agua
+(SEGIAGUA)",007,PLANTA_030,19.348835,-99.065508,centroide_alcaldia
+"La Magdalena
+Contreras",La Magdalena Contreras,Río Magdalena,Filtración directa,210.0,210.0,"Secretaría de Gestión Integral del Agua
+(SEGIAGUA)",,PLANTA_031,,,centroide_alcaldia
+"La Magdalena
+Contreras",La Magdalena Contreras,Río Magdalena 2,Filtración directa,200.0,150.0,"Secretaría de Gestión Integral del Agua
+(SEGIAGUA)",,PLANTA_032,,,centroide_alcaldia
+Tláhuac,Tláhuac,Santa Catarina,Ósmosis inversa,500.0,120.0,"Secretaría de Gestión Integral del Agua
+(SEGIAGUA)",011,PLANTA_033,19.287578,-99.007749,centroide_alcaldia
+Tláhuac,Tláhuac,Santa Catarina 4,Ósmosis inversa,60.0,50.0,"Secretaría de Gestión Integral del Agua
+(SEGIAGUA)",011,PLANTA_034,19.287578,-99.007749,centroide_alcaldia
+Tláhuac,Tláhuac,"Acueducto Tláhuac-La
+Caldera",Ósmosis inversa,40.0,30.0,"Secretaría de Gestión Integral del Agua
+(SEGIAGUA)",011,PLANTA_035,19.287578,-99.007749,centroide_alcaldia
+Tláhuac,Tláhuac,Tecomitl 18,Ósmosis inversa,50.0,43.0,"Secretaría de Gestión Integral del Agua
+(SEGIAGUA)",011,PLANTA_036,19.287578,-99.007749,centroide_alcaldia
+Venustiano Carranza,Venustiano Carranza,Balbuena 2,Filtración directa,40.0,13.0,"Secretaría de Gestión Integral del Agua
+(SEGIAGUA)",017,PLANTA_037,19.4287195,-99.106626,centroide_alcaldia
+Venustiano Carranza,Venustiano Carranza,Peñón de Los Baños,Ósmosis inversa,50.0,50.0,"Secretaría de Gestión Integral del Agua
+(SEGIAGUA)",017,PLANTA_038,19.4287195,-99.106626,centroide_alcaldia
+Venustiano Carranza,Venustiano Carranza,Santa Anita,Filtración directa,40.0,36.0,"Secretaría de Gestión Integral del Agua
+(SEGIAGUA)",017,PLANTA_039,19.4287195,-99.106626,centroide_alcaldia
+Xochimilco,Xochimilco,Escudo Nacional 2,Filtración directa,40.0,40.0,"Secretaría de Gestión Integral del Agua
+(SEGIAGUA)",013,PLANTA_040,19.257876,-99.108358,centroide_alcaldia
+Xochimilco,Xochimilco,S-13,Adsorción,40.0,40.0,"Secretaría de Gestión Integral del Agua
+(SEGIAGUA)",013,PLANTA_041,19.257876,-99.108358,centroide_alcaldia
+Xochimilco,Xochimilco,Cerillos 2,Filtración directa,40.0,40.0,"Secretaría de Gestión Integral del Agua
+(SEGIAGUA)",013,PLANTA_042,19.257876,-99.108358,centroide_alcaldia
+Xochimilco,Xochimilco,Cerillos 3,Filtración directa,40.0,40.0,"Secretaría de Gestión Integral del Agua
+(SEGIAGUA)",013,PLANTA_043,19.257876,-99.108358,centroide_alcaldia
+Xochimilco,Xochimilco,R-11,Filtración directa,40.0,40.0,"Secretaría de Gestión Integral del Agua
+(SEGIAGUA)",013,PLANTA_044,19.257876,-99.108358,centroide_alcaldia

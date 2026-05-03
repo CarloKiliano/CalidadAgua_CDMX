@@ -130,8 +130,8 @@
     ]
   },
   "sacmex_reportes": {
-    "n_in": 313756,
-    "n_out": 264303,
+    "n_in": 568486,
+    "n_out": 519033,
     "columnas_finales": [
       "folio_incidente",
       "id_reporte",
@@ -233,8 +233,22 @@
     },
     "n_flags_outlier_nom127": 0
   },
+  "iecm": {
+    "n_in": 1837,
+    "n_out": 1837,
+    "geometrias_reparadas": 0,
+    "duplicados_cveut": 0,
+    "transformaciones": [
+      "repair_geometries",
+      "reproyectar_4326",
+      "mapeo_cdt_a_cve",
+      "centroides_oficiales",
+      "norm_texto",
+      "export_csv_y_geojson"
+    ]
+  },
   "_meta": {
-    "generado_en": "2026-05-01T13:34:24",
+    "generado_en": "2026-05-03T01:00:53",
     "project_root": "c:\\Users\\PC\\Desktop\\Antigravity\\ProyectoFinal_CalidadDatos",
     "datos_crudos": "c:\\Users\\PC\\Desktop\\Antigravity\\ProyectoFinal_CalidadDatos\\datos\\datos_crudos",
     "datos_limpios": "c:\\Users\\PC\\Desktop\\Antigravity\\ProyectoFinal_CalidadDatos\\datos\\datos_limpios",
@@ -247,6 +261,8 @@
       "conagua_sitios": "conagua_sitios_limpio.csv",
       "conagua_resultados": "conagua_resultados_cdmx_limpio.csv",
       "catalogo_alcaldias": "catalogo_alcaldias_cdmx.csv",
+      "iecm": "colonias_iecm_limpio.csv",
+      "iecm_geojson": "colonias_iecm.geojson",
       "log_limpieza": "_log_limpieza.json"
     },
     "constantes": {

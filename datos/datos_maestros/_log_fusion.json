@@ -1,149 +1,91 @@
 {
   "territorios_cdmx": {
-    "n_filas": 1614,
-    "n_oficial": 1503,
-    "n_no_oficial": 111,
-    "n_centroide_imputado": 357
+    "n_filas": 6936,
+    "n_iecm": 1837,
+    "n_no_oficial": 5099,
+    "n_filas_v7": 1837,
+    "n_removidas_post_reasignacion": 5099
   },
   "sociodemografia_alcaldia": {
-    "n_filas": 16,
-    "n_alcaldias_discrep_pob": 9
+    "n_filas": 16
   },
   "morbilidad_cdmx": {
     "n_filas": 8,
-    "casos_total": 460646,
-    "tasa_estatal_por_100k": 5001.98,
-    "anio_casos": 2017
+    "tasa_estatal": 5001.98
   },
   "sitios_monitoreo": {
-    "n_filas": 24,
-    "subsistemas": {
-      "cdmx_local": 20,
-      "cutzamala_rio": 2,
-      "cutzamala_tuxpan": 2
-    }
+    "n_filas": 24
   },
   "calidad_agua": {
     "n_filas": 196,
-    "n_mediciones_excede_nom": 119,
-    "params_evaluados": [
-      "excede_nom_as_tot",
-      "excede_nom_pb_tot",
-      "excede_nom_hg_tot",
-      "excede_nom_cd_tot",
-      "excede_nom_n_no3",
-      "excede_nom_e_coli",
-      "excede_nom_coli_fec"
-    ]
+    "n_excede": 119
   },
   "incidentes_fugas": {
-    "n_filas": 264303,
-    "linkage": {
-      "auto": 343,
-      "no_match": 88,
-      "candidato": 23
+    "n_filas": 519033,
+    "n_con_id_colonia": 512601,
+    "origen_colonia_dist": {
+      "linkage_auto": 250421,
+      "match_exacto": 154893,
+      "reasignacion_espacial": 112486,
+      "huerfano": 1233
     },
-    "filas_linkage_auto": 43008,
-    "filas_aun_huerfanas": 4252
+    "n_reasignados_espacialmente": 112486
   },
   "plantas_potabilizadoras": {
-    "n_filas": 45,
-    "n_con_coords_directas": 0,
-    "n_con_coords_imputadas": 45
+    "n_filas": 45
   },
   "maestra_colonia": {
-    "n_filas": 1614,
-    "n_columnas": 52,
-    "anio_snapshot_fugas": 2024,
-    "n_colonias_con_fugas": 1498,
-    "score_intervencion_base_disponible": true,
-    "ivs_disponible": true,
-    "antiguedad_red_proxy_disponible": true,
-    "dist_planta_disponible": 1614
+    "n_filas": 1837,
+    "n_columnas": 50
   },
   "maestra_colonia_anio": {
-    "n_filas": 4842,
-    "n_anios": 3,
+    "n_filas": 12859,
     "anios": [
+      2018,
+      2019,
+      2020,
+      2021,
       2022,
       2023,
       2024
     ]
   },
   "maestra_colonia_semestre": {
-    "n_filas": 8070,
-    "n_periodos": 5,
-    "periodos": [
-      "2022-S1",
-      "2022-S2",
-      "2023-S1",
-      "2023-S2",
-      "2024-S1"
-    ]
+    "n_filas": 23881,
+    "n_periodos": 13
   },
   "vulnerabilidad_hidrica": {
-    "pesos_declarados": {
-      "pobreza": 0.4,
-      "calidad_agua": 0.25,
-      "fugas_per_capita": 0.25,
-      "morbilidad": 0.1
-    },
+    "n_filas": 1837,
+    "ivh_media": 0.499,
+    "ivh_max": 0.8807,
     "pesos_efectivos": {
       "pobreza": 0.4,
       "calidad_agua": 0.25,
       "fugas_per_capita": 0.25,
       "morbilidad": 0.1
-    },
-    "componentes_constantes": [],
-    "transformacion_log": [
-      "calidad",
-      "fugas"
-    ],
-    "n_colonias_con_ivh": 1614,
-    "ivh_media": 0.5186,
-    "ivh_max": 0.9162
+    }
+  },
+  "cp_a_colonia": {
+    "n_filas": 1526,
+    "n_resueltos": 1312
   },
   "_meta": {
-    "generado_en": "2026-05-02T14:15:12",
-    "version": "v5 — plantas potabilizadoras + granularidad semestral + IVS + score base + proxy antigüedad",
-    "project_root": "c:\\Users\\PC\\Desktop\\Antigravity\\ProyectoFinal_CalidadDatos",
-    "datos_limpios": "c:\\Users\\PC\\Desktop\\Antigravity\\ProyectoFinal_CalidadDatos\\datos\\datos_limpios",
-    "datos_maestros": "c:\\Users\\PC\\Desktop\\Antigravity\\ProyectoFinal_CalidadDatos\\datos\\datos_maestros",
+    "generado_en": "2026-05-03T01:21:35",
+    "version": "v7 — IECM + SACMEX 2018-2024 + reasignación espacial de huérfanos",
     "decisiones_de_fusion": {
-      "granularidad_principal": "colonia",
-      "granularidad_temporal_target": "semestre (maestra_colonia_semestre.csv)",
-      "universo_colonias": "SEPOMEX (1503) + huerfanas SACMEX no resueltas por fuzzy",
-      "centroide_imputacion": "fallback alcaldia para colonias sin reportes",
-      "calidad_agua_a_colonia": "KNN nearest sitio cdmx_local (haversine)",
-      "demografia_a_colonia": "uniforme dentro alcaldia",
-      "pobreza_a_colonia": "uniforme dentro alcaldia",
-      "morbilidad_a_colonia": "estimacion por factor de riesgo (pobreza + sin_agua + sin_drenaje)",
-      "planta_potabilizadora_a_colonia": "KNN haversine, distancia en km",
-      "antiguedad_red": "proxy compuesto (densidad + drenaje + agua entubada)",
-      "fechas_calidad_agua": "parseadas desde serial Excel (origen 1899-12-30)",
-      "fuzzy_threshold_auto": 85,
-      "fuzzy_threshold_candidato": 70,
-      "anio_referencia_snapshot": 2024,
-      "pesos_IVH_declarados": {
-        "pobreza": 0.4,
-        "calidad_agua": 0.25,
-        "fugas_per_capita": 0.25,
-        "morbilidad": 0.1
-      },
+      "universo_principal": "IECM 2022 (1837 UT con polígonos y población oficial)",
+      "sepomex_uso": "secundario, sólo para CP → id_colonia (vista ciudadano)",
+      "sacmex_span": "2018-2024",
+      "calidad_agua": "KNN nearest sitio cdmx_local (haversine)",
+      "morbilidad": "factor de riesgo (pobreza+sin_agua+sin_drenaje) × tasa estatal",
+      "fuzzy_threshold": 85,
+      "anio_referencia": 2024,
       "pesos_IVH_efectivos": {
         "pobreza": 0.4,
         "calidad_agua": 0.25,
         "fugas_per_capita": 0.25,
         "morbilidad": 0.1
-      },
-      "definicion_IVS": "0.5 * pobreza_norm + 0.5 * morbi_norm",
-      "transformacion_norm_IVH": "log(1+x) para fugas y calidad por cola larga"
-    },
-    "limitaciones_documentadas": {
-      "sacmex_historico_2018_2021": "ausente; split temporal del README requiere agregarlo o adaptarse a semestres dentro 2022-2024",
-      "shapefile_colonias": "ausente; mapas coropléticos reales no posibles, usar mapas de puntos como sustituto",
-      "precipitacion_mensual": "ausente; agregar en analisis.ipynb desde CLICOM/SMN si se requiere estacionalidad",
-      "antiguedad_red_real": "INEGI no publica año urbanización por colonia; se usa proxy compuesto"
+      }
     }
   }
 }
