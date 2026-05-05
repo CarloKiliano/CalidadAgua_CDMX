@@ -1,0 +1,101 @@
+﻿rank,nom_alcaldia,nom_colonia,pob_colonia,IVH,score_priorizacion,causa_raiz,intervencion,casos_morbilidad_estimados,pob_menores_estim
+1,MILPA ALTA,SAN ANTONIO TECOMITL (PBLO),32538,0.855,0.859,planta,Upgrade tecnológico planta (ósmosis o intercambio iónico),7272.7,7737.0
+2,MILPA ALTA,VILLA MILPA ALTA (PBLO),22891,0.858,0.648,planta,Upgrade tecnológico planta (ósmosis o intercambio iónico),5116.4,5443.0
+3,XOCHIMILCO,SAN GREGORIO ATLAPULCO (PBLO),31758,0.758,0.616,planta,Upgrade tecnológico planta (ósmosis o intercambio iónico),5066.7,6395.0
+4,MILPA ALTA,SAN PABLO OZTOTEPEC (PBLO),20355,0.834,0.591,planta,Upgrade tecnológico planta (ósmosis o intercambio iónico),4549.6,4840.0
+5,XOCHIMILCO,SANTA CRUZ ACALPIXCA (PBLO),25353,0.787,0.537,planta,Upgrade tecnológico planta (ósmosis o intercambio iónico),4044.8,5105.0
+6,MILPA ALTA,SAN SALVADOR CUAUHTENCO (PBLO),16837,0.845,0.522,planta,Upgrade tecnológico planta (ósmosis o intercambio iónico),3763.3,4003.0
+7,XOCHIMILCO,SANTIAGO TULYEHUALCO (PBLO),22570,0.796,0.498,planta,Upgrade tecnológico planta (ósmosis o intercambio iónico),3600.8,4545.0
+8,MILPA ALTA,SAN PEDRO ATOCPAN (PBLO),14402,0.839,0.466,planta,Upgrade tecnológico planta (ósmosis o intercambio iónico),3219.0,3424.0
+9,XOCHIMILCO,SANTA MARIA NATIVITAS (PBLO),18025,0.785,0.436,planta,Upgrade tecnológico planta (ósmosis o intercambio iónico),2875.7,3630.0
+10,XOCHIMILCO,SANTIAGO TEPALCATLALPAN (PBLO),17248,0.78,0.425,planta,Upgrade tecnológico planta (ósmosis o intercambio iónico),2751.7,3473.0
+11,MILPA ALTA,SANTA ANA TLACOTENCO (PBLO),12412,0.825,0.416,planta,Upgrade tecnológico planta (ósmosis o intercambio iónico),2774.2,2951.0
+12,XOCHIMILCO,SAN MARCOS (AMPL),17209,0.788,0.412,planta,Upgrade tecnológico planta (ósmosis o intercambio iónico),2745.5,3465.0
+13,TLALPAN,SAN ANDRES TOTOLTEPEC (PBLO),27347,0.697,0.401,ambas,Intervención dual: red + planta (proyecto integral),2543.3,5046.0
+14,TLALPAN,SAN MIGUEL TOPILEJO (PBLO),28008,0.683,0.399,planta,Upgrade tecnológico planta (ósmosis o intercambio iónico),2604.8,5168.0
+15,XOCHIMILCO,NATIVITAS LA JOYA (AMPL),16013,0.717,0.381,planta,Upgrade tecnológico planta (ósmosis o intercambio iónico),2554.7,3225.0
+16,XOCHIMILCO,SANTA CRUZ XOCHITEPEC (PBLO),14451,0.774,0.38,planta,Upgrade tecnológico planta (ósmosis o intercambio iónico),2305.5,2910.0
+17,XOCHIMILCO,SAN LUCAS XOCHIMANCA (PBLO),12986,0.776,0.374,planta,Upgrade tecnológico planta (ósmosis o intercambio iónico),2071.8,2615.0
+18,XOCHIMILCO,XALTOCAN (BARR),10717,0.813,0.372,planta,Upgrade tecnológico planta (ósmosis o intercambio iónico),1709.8,2158.0
+19,XOCHIMILCO,SAN ANDRES AHUAYUCAN (PBLO),15226,0.764,0.371,planta,Upgrade tecnológico planta (ósmosis o intercambio iónico),2429.1,3066.0
+20,XOCHIMILCO,SANTA MARIA TEPEPAN (PBLO),14016,0.792,0.365,ambas,Intervención dual: red + planta (proyecto integral),2236.1,2822.0
+21,XOCHIMILCO,SAN LUIS TLAXIALTEMALCO (PBLO),15418,0.7,0.364,planta,Upgrade tecnológico planta (ósmosis o intercambio iónico),2459.8,3105.0
+22,XOCHIMILCO,SAN MATEO XALPA (PBLO),12700,0.764,0.344,planta,Upgrade tecnológico planta (ósmosis o intercambio iónico),2026.2,2557.0
+23,XOCHIMILCO,SANTA CECILIA TEPETLAPA (PBLO),13438,0.783,0.34,planta,Upgrade tecnológico planta (ósmosis o intercambio iónico),2143.9,2706.0
+24,XOCHIMILCO,SAN PEDRO (BARR),2918,0.782,0.33,planta,Upgrade tecnológico planta (ósmosis o intercambio iónico),465.5,588.0
+25,XOCHIMILCO,SAN LORENZO ATEMOAYA (PBLO),10180,0.766,0.322,planta,Upgrade tecnológico planta (ósmosis o intercambio iónico),1624.1,2050.0
+26,TLAHUAC,SAN PEDRO TLAHUAC (PBLO),18336,0.704,0.322,planta,Upgrade tecnológico planta (ósmosis o intercambio iónico),1272.0,3928.0
+27,XOCHIMILCO,SAN LORENZO LA CEBADA I,10873,0.744,0.314,planta,Upgrade tecnológico planta (ósmosis o intercambio iónico),1734.7,2190.0
+28,TLAHUAC,SAN FRANCISCO TLALTENCO (PBLO),17494,0.718,0.31,ambas,Intervención dual: red + planta (proyecto integral),1213.6,3748.0
+29,TLAHUAC,LA CONCHITA II,19875,0.616,0.309,planta,Upgrade tecnológico planta (ósmosis o intercambio iónico),1378.7,4258.0
+30,IZTAPALAPA,CONSTITUCION DE 1917 I,8945,0.681,0.306,planta,Upgrade tecnológico planta (ósmosis o intercambio iónico),314.6,1788.0
+31,XOCHIMILCO,CALTONGO (BARR),9088,0.787,0.304,planta,Upgrade tecnológico planta (ósmosis o intercambio iónico),1449.9,1830.0
+32,LA MAGDALENA CONTRERAS,SAN JERONIMO ACULCO - LIDICE (PBLO),23423,0.738,0.3,ambas,Intervención dual: red + planta (proyecto integral),1312.4,4481.0
+33,IZTAPALAPA,LOS ANGELES,13375,0.678,0.298,planta,Upgrade tecnológico planta (ósmosis o intercambio iónico),470.5,2673.0
+34,TLAHUAC,SELENE 2da SECC,8585,0.679,0.296,planta,Upgrade tecnológico planta (ósmosis o intercambio iónico),595.5,1839.0
+35,XOCHIMILCO,JARDINES DEL SUR,5022,0.798,0.294,ambas,Intervención dual: red + planta (proyecto integral),801.2,1011.0
+36,IZTAPALAPA,LOMAS DE SAN LORENZO II,26104,0.588,0.294,planta,Upgrade tecnológico planta (ósmosis o intercambio iónico),918.2,5217.0
+37,VENUSTIANO CARRANZA,MOCTEZUMA 1A SECCION,10771,0.368,0.293,fugas,Reemplazo de red secundaria (cuadrillas + tubería),382.8,1895.0
+38,TLALPAN,SANTO TOMAS AJUSCO (PBLO),17779,0.698,0.286,planta,Upgrade tecnológico planta (ósmosis o intercambio iónico),1653.5,3280.0
+39,TLALPAN,AMPLIACION MIGUEL HIDALGO 3A SECC,17283,0.698,0.283,planta,Upgrade tecnológico planta (ósmosis o intercambio iónico),1607.4,3189.0
+40,MILPA ALTA,SAN FRANCISCO TECOXPA (PBLO),5866,0.864,0.283,planta,Upgrade tecnológico planta (ósmosis o intercambio iónico),1311.1,1395.0
+41,TLALPAN,SAN MIGUEL AJUSCO (PBLO),16811,0.719,0.282,ambas,Intervención dual: red + planta (proyecto integral),1563.5,3102.0
+42,XOCHIMILCO,SAN MARCOS (BARR),3796,0.764,0.282,planta,Upgrade tecnológico planta (ósmosis o intercambio iónico),605.6,764.0
+43,IZTAPALAPA,SAN MIGUEL (BARR),20369,0.601,0.282,planta,Upgrade tecnológico planta (ósmosis o intercambio iónico),716.5,4071.0
+44,TLALPAN,AMPLIACION MIGUEL HIDALGO 2A SECC,16800,0.697,0.279,planta,Upgrade tecnológico planta (ósmosis o intercambio iónico),1562.4,3100.0
+45,MILPA ALTA,SAN BARTOLOME XICOMULCO (PBLO),5375,0.881,0.278,planta,Upgrade tecnológico planta (ósmosis o intercambio iónico),1201.4,1278.0
+46,TLAHUAC,SELENE 1a SECC,9055,0.685,0.275,planta,Upgrade tecnológico planta (ósmosis o intercambio iónico),628.2,1940.0
+47,XOCHIMILCO,TEPEPAN (AMPL),7367,0.789,0.271,planta,Upgrade tecnológico planta (ósmosis o intercambio iónico),1175.3,1484.0
+48,TLALPAN,SAN MIGUEL  XICALCO (PBLO),15394,0.682,0.27,planta,Upgrade tecnológico planta (ósmosis o intercambio iónico),1431.7,2840.0
+49,MILPA ALTA,SAN LORENZO TLACOYUCAN (PBLO),5414,0.822,0.267,planta,Upgrade tecnológico planta (ósmosis o intercambio iónico),1210.1,1287.0
+50,XOCHIMILCO,SAN LORENZO LA CEBADA II,7308,0.751,0.267,planta,Upgrade tecnológico planta (ósmosis o intercambio iónico),1165.9,1472.0
+51,XOCHIMILCO,LA ASUNCION (BARR),6096,0.754,0.266,planta,Upgrade tecnológico planta (ósmosis o intercambio iónico),972.6,1228.0
+52,ALVARO OBREGON,SAN BARTOLO AMEYALCO (PBLO),24667,0.667,0.265,planta,Upgrade tecnológico planta (ósmosis o intercambio iónico),980.5,4421.0
+53,XOCHIMILCO,LA CONCHA,3531,0.787,0.257,planta,Upgrade tecnológico planta (ósmosis o intercambio iónico),563.3,711.0
+54,TLALPAN,MIGUEL HIDALGO,14008,0.742,0.257,ambas,Intervención dual: red + planta (proyecto integral),1302.8,2585.0
+55,XOCHIMILCO,EL CARMEN,7932,0.781,0.257,planta,Upgrade tecnológico planta (ósmosis o intercambio iónico),1265.5,1597.0
+56,XOCHIMILCO,SAN ANTONIO (BARR),1776,0.766,0.256,planta,Upgrade tecnológico planta (ósmosis o intercambio iónico),283.3,358.0
+57,TLALPAN,SAN PEDRO MARTIR (PBLO),14088,0.683,0.256,planta,Upgrade tecnológico planta (ósmosis o intercambio iónico),1310.2,2599.0
+58,IZTAPALAPA,DESARROLLO URBANO QUETZALCOATL  III,20344,0.628,0.253,planta,Upgrade tecnológico planta (ósmosis o intercambio iónico),715.6,4066.0
+59,TLAHUAC,SANTIAGO ZAPOTITLAN (PBLO),14299,0.628,0.251,planta,Upgrade tecnológico planta (ósmosis o intercambio iónico),991.9,3063.0
+60,XOCHIMILCO,SAN FRANCISCO TLALNEPANTLA (PBLO),8300,0.764,0.25,planta,Upgrade tecnológico planta (ósmosis o intercambio iónico),1324.2,1671.0
+61,IZTAPALAPA,PRESIDENTES DE MEXICO,15406,0.663,0.25,planta,Upgrade tecnológico planta (ósmosis o intercambio iónico),541.9,3079.0
+62,TLAHUAC,SAN ANDRES MIXQUIC (PBLO),16265,0.682,0.249,planta,Upgrade tecnológico planta (ósmosis o intercambio iónico),1128.3,3484.0
+63,XOCHIMILCO,BARRIO 18,6173,0.792,0.249,ambas,Intervención dual: red + planta (proyecto integral),984.8,1243.0
+64,IZTACALCO,JUVENTINO ROSAS II,7170,0.411,0.244,planta,Upgrade tecnológico planta (ósmosis o intercambio iónico),196.1,1228.0
+65,IZTAPALAPA,PARAJE SAN JUAN,10564,0.674,0.243,planta,Upgrade tecnológico planta (ósmosis o intercambio iónico),371.6,2111.0
+66,XOCHIMILCO,BELEM (BARR),1213,0.782,0.242,planta,Upgrade tecnológico planta (ósmosis o intercambio iónico),193.5,244.0
+67,IZTAPALAPA,PROGRESISTA,9544,0.661,0.242,planta,Upgrade tecnológico planta (ósmosis o intercambio iónico),335.7,1907.0
+68,IZTAPALAPA,CONSEJO AGRARISTA MEXICANO I,16036,0.672,0.238,planta,Upgrade tecnológico planta (ósmosis o intercambio iónico),564.1,3205.0
+69,XOCHIMILCO,LA CONCEPCION TLACOAPA (BARR),3141,0.764,0.238,planta,Upgrade tecnológico planta (ósmosis o intercambio iónico),501.1,633.0
+70,IZTAPALAPA,SAN JUAN XALPA II,16804,0.567,0.238,planta,Upgrade tecnológico planta (ósmosis o intercambio iónico),591.1,3358.0
+71,XOCHIMILCO,SAN CRISTOBAL (BARR),2418,0.794,0.237,planta,Upgrade tecnológico planta (ósmosis o intercambio iónico),385.8,487.0
+72,IZTAPALAPA,SANTA MARIA AZTAHUACAN (EJ) I,16753,0.684,0.237,planta,Upgrade tecnológico planta (ósmosis o intercambio iónico),589.3,3348.0
+73,XOCHIMILCO,XICALHUACAN,5439,0.754,0.236,planta,Upgrade tecnológico planta (ósmosis o intercambio iónico),867.7,1095.0
+74,IZTAPALAPA,DESARROLLO URBANO QUETZALCOATL  I,16096,0.676,0.235,planta,Upgrade tecnológico planta (ósmosis o intercambio iónico),566.2,3217.0
+75,MILPA ALTA,SAN JERONIMO MIACATLAN (PBLO),3778,0.846,0.235,planta,Upgrade tecnológico planta (ósmosis o intercambio iónico),844.4,898.0
+76,TLAHUAC,SANTA CECILIA,6122,0.706,0.235,planta,Upgrade tecnológico planta (ósmosis o intercambio iónico),424.7,1311.0
+77,TLAHUAC,SAN MIGUEL ZAPOTITLA,13549,0.613,0.234,planta,Upgrade tecnológico planta (ósmosis o intercambio iónico),939.9,2903.0
+78,TLAHUAC,MIGUEL HIDALGO OTE,13286,0.62,0.234,planta,Upgrade tecnológico planta (ósmosis o intercambio iónico),921.7,2846.0
+79,XOCHIMILCO,EL ROSARIO (BARR),625,0.807,0.234,ambas,Intervención dual: red + planta (proyecto integral),99.7,126.0
+80,XOCHIMILCO,LOS CERRILLOS II,6395,0.773,0.234,planta,Upgrade tecnológico planta (ósmosis o intercambio iónico),1020.3,1288.0
+81,XOCHIMILCO,LOS CERRILLOS III,6183,0.776,0.234,planta,Upgrade tecnológico planta (ósmosis o intercambio iónico),986.4,1245.0
+82,AZCAPOTZALCO,DEL MAESTRO,654,0.312,0.232,fugas,Reemplazo de red secundaria (cuadrillas + tubería),19.2,106.0
+83,XOCHIMILCO,GUADALUPE,6358,0.741,0.231,planta,Upgrade tecnológico planta (ósmosis o intercambio iónico),1014.4,1280.0
+84,XOCHIMILCO,SAN JUAN (BARR),1692,0.774,0.231,planta,Upgrade tecnológico planta (ósmosis o intercambio iónico),269.9,341.0
+85,XOCHIMILCO,TLAXOPAN,5862,0.783,0.231,planta,Upgrade tecnológico planta (ósmosis o intercambio iónico),935.2,1180.0
+86,IZTAPALAPA,DESARROLLO URBANO QUETZALCOATL  II,16586,0.624,0.23,planta,Upgrade tecnológico planta (ósmosis o intercambio iónico),583.4,3315.0
+87,CUAJIMALPA DE MORELOS,SAN MATEO TLALTENANGO (PBLO),23623,0.584,0.23,planta,Upgrade tecnológico planta (ósmosis o intercambio iónico),1000.7,4916.0
+88,VENUSTIANO CARRANZA,MOCTEZUMA 2A SECCION III,12198,0.28,0.23,otra,Auditoría técnica para identificar causa secundaria,433.5,2147.0
+89,GUSTAVO A. MADERO,SANTA ISABEL TOLA (PBLO),14490,0.386,0.23,otra,Auditoría técnica para identificar causa secundaria,442.1,2622.0
+90,TLAHUAC,OJO DE AGUA,3128,0.717,0.23,ambas,Intervención dual: red + planta (proyecto integral),217.0,670.0
+91,IZTAPALAPA,LEYES DE REFORMA 3A SECCION I,16825,0.614,0.228,planta,Upgrade tecnológico planta (ósmosis o intercambio iónico),591.8,3363.0
+92,TLAHUAC,LA CONCHITA I,11454,0.654,0.226,ambas,Intervención dual: red + planta (proyecto integral),794.6,2454.0
+93,VENUSTIANO CARRANZA,JARDIN BALBUENA I,11775,0.387,0.226,fugas,Reemplazo de red secundaria (cuadrillas + tubería),418.5,2072.0
+94,MIGUEL HIDALGO,ANAHUAC I,18835,0.227,0.226,otra,Auditoría técnica para identificar causa secundaria,1671.3,2840.0
+95,XOCHIMILCO,NATIVITAS (U HAB),2198,0.709,0.226,planta,Upgrade tecnológico planta (ósmosis o intercambio iónico),350.7,443.0
+96,IZTAPALAPA,RENOVACION,14346,0.655,0.226,planta,Upgrade tecnológico planta (ósmosis o intercambio iónico),504.6,2867.0
+97,TLALPAN,PEDREGAL DE SN NICOLAS 1A SECC,12130,0.715,0.225,ambas,Intervención dual: red + planta (proyecto integral),1128.1,2238.0
+98,XOCHIMILCO,SAN ESTEBAN (BARR),2359,0.784,0.225,planta,Upgrade tecnológico planta (ósmosis o intercambio iónico),376.4,475.0
+99,IZTAPALAPA,CHINAMPAC DE JUAREZ II,16846,0.577,0.224,planta,Upgrade tecnológico planta (ósmosis o intercambio iónico),592.5,3367.0
+100,IZTACALCO,TLACOTAL RAMOS MILLAN,7909,0.412,0.223,planta,Upgrade tecnológico planta (ósmosis o intercambio iónico),216.4,1355.0
