@@ -1,0 +1,115 @@
+/* ══════════════════════════════════════════════════════════
+   AGUA POTABLE CDMX · Dashboard SACMEX × IIMAS UNAM
+   Paleta: #0a0a1a bg · #d62728 crítico · #2ca02c bajo
+   ══════════════════════════════════════════════════════════ */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --bg:           #090918;
+  --card-bg:      #111128;
+  --card-border:  #23235a;
+  --text:         #e0e0f8;
+  --text-muted:   #7070a0;
+  --accent:       #4878d0;
+  --critico:      #d62728;
+  --alto:         #ff7f0e;
+  --medio:        #f0c33c;
+  --bajo:         #2ca02c;
+  --header-h:     64px;
+  --radius:       10px;
+}
+
+/* ── Global ─────────────────────────────────────────────── */
+* { box-sizing: border-box; font-family: 'Inter', sans-serif; }
+body, .main-wrapper { background: var(--bg) !important; color: var(--text) !important; min-height: 100vh; }
+::-webkit-scrollbar { width: 6px; } ::-webkit-scrollbar-thumb { background: var(--card-border); border-radius: 3px; }
+
+/* ── Header ─────────────────────────────────────────────── */
+.main-header {
+  background: linear-gradient(90deg, #070714 0%, #0d0d2e 60%, #0a1525 100%) !important;
+  border-bottom: 1px solid var(--card-border);
+  height: var(--header-h);
+  padding: 0 24px !important;
+  position: sticky; top: 0; z-index: 1000;
+}
+.nav-title  { font-size: 1.15rem; font-weight: 700; color: #fff; letter-spacing: .06em; margin: 0; }
+.nav-subtitle { font-size: .7rem; color: var(--text-muted); letter-spacing: .03em; }
+.header-badges { display: flex; gap: 8px; align-items: center; }
+.badge-live  { background: rgba(212,50,50,.18); color: #ff6666; border: 1px solid #ff4444; border-radius: 20px; padding: 3px 10px; font-size: .65rem; font-weight: 600; letter-spacing:.05em; animation: pulse 2s infinite; }
+.badge-count { background: rgba(72,120,208,.18); color: #7aadff; border: 1px solid var(--accent); border-radius: 20px; padding: 3px 10px; font-size: .65rem; font-weight: 600; }
+.badge-dama  { background: rgba(240,195,60,.1); color: #f0c33c; border: 1px solid #f0c33c44; border-radius: 20px; padding: 3px 10px; font-size: .65rem; font-weight: 600; }
+@keyframes pulse { 0%,100%{opacity:1} 50%{opacity:.6} }
+
+/* ── Tabs ───────────────────────────────────────────────── */
+.main-tabs .nav-tabs { background: #07071a !important; border-bottom: 1px solid var(--card-border) !important; padding: 0 20px; }
+.main-tabs .nav-link { color: var(--text-muted) !important; font-size: .82rem; font-weight: 500; padding: 10px 20px; border: none !important; border-bottom: 2px solid transparent !important; transition: all .2s; }
+.main-tabs .nav-link:hover { color: var(--text) !important; background: rgba(255,255,255,.04) !important; }
+.main-tabs .nav-link.active { color: var(--accent) !important; background: transparent !important; border-bottom-color: var(--accent) !important; font-weight: 600; }
+.tab-content { padding: 20px 16px; }
+
+/* ── Cards ──────────────────────────────────────────────── */
+.dash-card { background: var(--card-bg) !important; border: 1px solid var(--card-border) !important; border-radius: var(--radius) !important; box-shadow: 0 4px 20px rgba(0,0,0,.4); }
+.custom-card-header { background: rgba(255,255,255,.03) !important; border-bottom: 1px solid var(--card-border) !important; padding: 10px 16px !important; }
+.card-header-title { font-size: .85rem; font-weight: 600; color: var(--text); }
+.card-header-sub   { font-size: .78rem; color: var(--text-muted); }
+
+/* ── KPI Cards ──────────────────────────────────────────── */
+.kpi-card { background: rgba(255,255,255,.03) !important; border: 1px solid var(--card-border) !important; border-radius: 8px !important; transition: border-color .2s; }
+.kpi-card:hover { border-color: var(--accent) !important; }
+.kpi-card .card-body { padding: 10px 14px !important; }
+.kpi-icon    { font-size: 1.1rem; margin-bottom: 2px; }
+.kpi-title   { font-size: .65rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: .06em; }
+.kpi-value   { font-size: 1.3rem; font-weight: 700; line-height: 1.2; }
+.kpi-subtitle{ font-size: .65rem; color: var(--text-muted); margin-top: 1px; }
+
+/* ── Mini KPI (header badge) ────────────────────────────── */
+.mini-kpi-card { background: rgba(212,50,50,.1) !important; border: 1px solid rgba(212,50,50,.3) !important; border-radius: 8px !important; }
+.mini-kpi-card .card-body { padding: 8px 14px !important; }
+.mini-kpi-value { font-size: 1.4rem; font-weight: 700; color: var(--critico); }
+.mini-kpi-label { font-size: .65rem; color: var(--text-muted); }
+
+/* ── Search Box ─────────────────────────────────────────── */
+.search-box { background: var(--card-bg); border: 1px solid var(--card-border); border-radius: var(--radius); padding: 18px 20px; margin-bottom: 4px; }
+.search-title { font-size: .95rem; font-weight: 600; margin-bottom: 4px; color: var(--text); }
+.search-sub   { font-size: .75rem; color: var(--text-muted); margin-bottom: 12px; }
+.cp-input { background: rgba(255,255,255,.06) !important; border: 1px solid var(--card-border) !important; color: var(--text) !important; border-radius: 6px !important; font-size: .85rem; }
+.cp-input:focus { border-color: var(--accent) !important; box-shadow: 0 0 0 2px rgba(72,120,208,.2) !important; }
+.cp-input::placeholder { color: var(--text-muted) !important; }
+.cp-btn { background: var(--accent) !important; border: none !important; font-weight: 600; font-size: .82rem; letter-spacing: .04em; border-radius: 6px !important; width: 100%; }
+.cp-btn:hover { background: #3568c0 !important; }
+.cp-error { color: var(--critico); font-size: .75rem; margin-top: 6px; min-height: 18px; }
+
+/* ── Semaphore ──────────────────────────────────────────── */
+.sem-container    { display: flex; justify-content: space-around; align-items: center; padding: 10px 6px; gap: 8px; }
+.sem-item         { display: flex; flex-direction: column; align-items: center; gap: 6px; flex: 1; }
+.sem-circle       { width: 68px; height: 68px; border-radius: 50%; display: flex; align-items: center; justify-content: center; transition: all .4s; }
+.sem-label        { font-size: .65rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: .06em; text-align: center; white-space: pre-line; }
+.sem-level        { font-size: .78rem; font-weight: 700; letter-spacing: .04em; }
+.sem-value        { font-size: .68rem; color: var(--text-muted); }
+.sem-colonia-name { font-size: .82rem; font-weight: 600; color: var(--text); padding: 6px 14px; border-bottom: 1px solid var(--card-border); margin-bottom: 4px; }
+
+/* ── Filters ────────────────────────────────────────────── */
+.filter-label { font-size: .72rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: .05em; margin-bottom: 4px; display: block; }
+.custom-dropdown .Select-control, .custom-dropdown .Select-menu-outer { background: rgba(255,255,255,.06) !important; border-color: var(--card-border) !important; color: var(--text) !important; }
+
+/* ── Slider ─────────────────────────────────────────────── */
+.custom-slider .rc-slider-track { background: var(--accent) !important; }
+.custom-slider .rc-slider-handle { border-color: var(--accent) !important; background: var(--accent) !important; }
+.sim-description { font-size: .78rem; color: var(--text-muted); margin-bottom: 8px; }
+.sim-kpis .kpi-card .card-body { padding: 8px 10px !important; }
+.sim-kpis .kpi-value { font-size: 1.1rem; }
+
+/* ── Dropdown dark ──────────────────────────────────────── */
+.Select-control     { background: rgba(255,255,255,.06) !important; border-color: var(--card-border) !important; }
+.Select-value-label { color: var(--text) !important; }
+.Select-input input { color: var(--text) !important; }
+.Select-placeholder { color: var(--text-muted) !important; }
+.Select-menu-outer  { background: #131330 !important; border-color: var(--card-border) !important; z-index: 999; }
+.Select-option      { background: transparent !important; color: var(--text) !important; font-size: .82rem; }
+.Select-option:hover, .Select-option.is-focused { background: rgba(72,120,208,.2) !important; }
+.Select-option.is-selected { background: rgba(72,120,208,.3) !important; }
+.Select-arrow-zone svg { fill: var(--text-muted) !important; }
+
+/* ── Utility ────────────────────────────────────────────── */
+.text-muted-sm { font-size: .72rem; color: var(--text-muted); }

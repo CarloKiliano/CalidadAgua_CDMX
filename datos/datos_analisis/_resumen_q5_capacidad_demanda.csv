@@ -1,48 +1,48 @@
-﻿id_planta,nombre,capacidad_lps,demanda_lps,deficit_lps,pct_deficit,pob_atendida,estado_planta
-PLANTA_006,Tlacotal,60.0,3201.9756944444443,3141.9756944444443,5236.626157407407,1844338,DÉFICIT > 50%
-PLANTA_044,R-11,40.0,3106.362847222222,3066.362847222222,7665.907118055556,1789265,DÉFICIT > 50%
-PLANTA_030,Agrícola Oriental,240.0,2706.8229166666665,2466.8229166666665,1027.8428819444446,1559130,DÉFICIT > 50%
-PLANTA_000,Trabajadores del Hierro,50.0,2369.300347222222,2319.300347222222,4638.600694444444,1364717,DÉFICIT > 50%
-PLANTA_005,Parque Vía Vallejo,40.0,1837.8819444444443,1797.8819444444443,4494.70486111111,1058620,DÉFICIT > 50%
-PLANTA_037,Balbuena 2,40.0,1543.6996527777778,1503.6996527777778,3759.249131944445,889171,DÉFICIT > 50%
-PLANTA_033,Santa Catarina,500.0,1223.4427083333333,723.4427083333333,144.68854166666665,704703,DÉFICIT > 50%
-PLANTA_007,Viga 4,60.0,0.0,-60.0,-100.0,0,MARGEN
-PLANTA_008,Ciudad Deportiva 2,100.0,0.0,-100.0,-100.0,0,MARGEN
-PLANTA_004,La Libertad,50.0,0.0,-50.0,-100.0,0,MARGEN
-PLANTA_003,Panamericana,50.0,0.0,-50.0,-100.0,0,MARGEN
-PLANTA_001,Deportivo Ferrería,50.0,0.0,-50.0,-100.0,0,MARGEN
-PLANTA_002,Jardines del Pedregal 5,80.0,0.0,-80.0,-100.0,0,MARGEN
-PLANTA_012,Iztapalapa 1,60.0,0.0,-60.0,-100.0,0,MARGEN
-PLANTA_011,Granjas San Antonio,60.0,0.0,-60.0,-100.0,0,MARGEN
-PLANTA_010,Cerro de La Estrella 2,60.0,0.0,-60.0,-100.0,0,MARGEN
-PLANTA_009,Carlos L. Gracidas,38.0,0.0,-38.0,-100.0,0,MARGEN
-PLANTA_013,Iztapalapa 2,60.0,0.0,-60.0,-100.0,0,MARGEN
-PLANTA_014,La Caldera,700.0,0.0,-700.0,-100.0,0,MARGEN
-PLANTA_015,Purísima 2,60.0,0.0,-60.0,-100.0,0,MARGEN
-PLANTA_016,Purísima 3 Y 7,135.0,0.0,-135.0,-100.0,0,MARGEN
-PLANTA_021,Xaltepec,500.0,0.0,-500.0,-100.0,0,MARGEN
-PLANTA_022,Santa Catarina 10,60.0,0.0,-60.0,-100.0,0,MARGEN
-PLANTA_023,Santa Catarina 13,60.0,0.0,-60.0,-100.0,0,MARGEN
-PLANTA_024,San Lorenzo Tezonco,6.0,0.0,-6.0,-100.0,0,MARGEN
-PLANTA_017,Santa Catarina 11,40.0,0.0,-40.0,-100.0,0,MARGEN
-PLANTA_018,Santa Cruz Meyehualco,120.0,0.0,-120.0,-100.0,0,MARGEN
-PLANTA_019,Viga 2,40.0,0.0,-40.0,-100.0,0,MARGEN
-PLANTA_020,Panteón Civil,180.0,0.0,-180.0,-100.0,0,MARGEN
-PLANTA_028,Auxiliar Xotepingo 4C,50.0,0.0,-50.0,-100.0,0,MARGEN
-PLANTA_027,Tecomitl 2,60.0,0.0,-60.0,-100.0,0,MARGEN
-PLANTA_026,Peñón 2,50.0,0.0,-50.0,-100.0,0,MARGEN
-PLANTA_025,"San Lorenzo Tezonco
-Nuevo",60.0,0.0,-60.0,-100.0,0,MARGEN
-PLANTA_032,Río Magdalena 2,200.0,0.0,-200.0,-100.0,0,MARGEN
-PLANTA_034,Santa Catarina 4,60.0,0.0,-60.0,-100.0,0,MARGEN
-PLANTA_031,Río Magdalena,210.0,0.0,-210.0,-100.0,0,MARGEN
-PLANTA_029,Parque Las Antenas,30.0,0.0,-30.0,-100.0,0,MARGEN
-PLANTA_036,Tecomitl 18,50.0,0.0,-50.0,-100.0,0,MARGEN
+﻿id_planta,nombre,proceso,capacidad_lps,caudal_lps,pct_uso,estado
+PLANTA_014,La Caldera,Filtración directa,700.0,540.0,77.1,Estresada (70-89%)
+PLANTA_021,Xaltepec,Filtración directa,500.0,320.0,64.0,Eficiente (40-69%)
+PLANTA_031,Río Magdalena,Filtración directa,210.0,210.0,100.0,Sobrecargada (>=90%)
+PLANTA_030,Agrícola Oriental,Ósmosis inversa,240.0,200.0,83.3,Estresada (70-89%)
+PLANTA_032,Río Magdalena 2,Filtración directa,200.0,150.0,75.0,Estresada (70-89%)
+PLANTA_033,Santa Catarina,Ósmosis inversa,500.0,120.0,24.0,Subutilizada (<40%)
+PLANTA_020,Panteón Civil,Filtración directa,180.0,80.0,44.4,Eficiente (40-69%)
+PLANTA_016,Purísima 3 Y 7,Ósmosis inversa,135.0,70.0,51.9,Eficiente (40-69%)
+PLANTA_002,Jardines del Pedregal 5,Filtración directa,80.0,65.0,81.2,Estresada (70-89%)
+PLANTA_018,Santa Cruz Meyehualco,Ósmosis inversa,120.0,56.0,46.7,Eficiente (40-69%)
+PLANTA_001,Deportivo Ferrería,Filtración directa,50.0,50.0,100.0,Sobrecargada (>=90%)
+PLANTA_012,Iztapalapa 1,Ósmosis inversa,60.0,50.0,83.3,Estresada (70-89%)
+PLANTA_006,Tlacotal,Ósmosis inversa,60.0,50.0,83.3,Estresada (70-89%)
+PLANTA_023,Santa Catarina 13,Ósmosis inversa,60.0,50.0,83.3,Estresada (70-89%)
+PLANTA_026,Peñón 2,Ósmosis inversa,50.0,50.0,100.0,Sobrecargada (>=90%)
+PLANTA_038,Peñón de Los Baños,Ósmosis inversa,50.0,50.0,100.0,Sobrecargada (>=90%)
+PLANTA_034,Santa Catarina 4,Ósmosis inversa,60.0,50.0,83.3,Estresada (70-89%)
+PLANTA_028,Auxiliar Xotepingo 4C,Filtración directa,50.0,50.0,100.0,Sobrecargada (>=90%)
+PLANTA_036,Tecomitl 18,Ósmosis inversa,50.0,43.0,86.0,Estresada (70-89%)
+PLANTA_043,Cerillos 3,Filtración directa,40.0,40.0,100.0,Sobrecargada (>=90%)
+PLANTA_005,Parque Vía Vallejo,Filtración directa,40.0,40.0,100.0,Sobrecargada (>=90%)
+PLANTA_004,La Libertad,Ósmosis inversa,50.0,40.0,80.0,Estresada (70-89%)
+PLANTA_044,R-11,Filtración directa,40.0,40.0,100.0,Sobrecargada (>=90%)
+PLANTA_042,Cerillos 2,Filtración directa,40.0,40.0,100.0,Sobrecargada (>=90%)
+PLANTA_041,S-13,Adsorción,40.0,40.0,100.0,Sobrecargada (>=90%)
+PLANTA_017,Santa Catarina 11,Filtración directa,40.0,40.0,100.0,Sobrecargada (>=90%)
+PLANTA_040,Escudo Nacional 2,Filtración directa,40.0,40.0,100.0,Sobrecargada (>=90%)
+PLANTA_019,Viga 2,Filtración directa,40.0,40.0,100.0,Sobrecargada (>=90%)
+PLANTA_009,Carlos L. Gracidas,Filtración directa,38.0,38.0,100.0,Sobrecargada (>=90%)
+PLANTA_015,Purísima 2,Filtración directa,60.0,37.0,61.7,Eficiente (40-69%)
+PLANTA_008,Ciudad Deportiva 2,Filtración directa,100.0,37.0,37.0,Subutilizada (<40%)
+PLANTA_039,Santa Anita,Filtración directa,40.0,36.0,90.0,Sobrecargada (>=90%)
+PLANTA_003,Panamericana,Filtración directa,50.0,34.0,68.0,Eficiente (40-69%)
+PLANTA_022,Santa Catarina 10,Ósmosis inversa,60.0,33.0,55.0,Eficiente (40-69%)
+PLANTA_010,Cerro de La Estrella 2,Filtración directa,60.0,32.0,53.3,Eficiente (40-69%)
+PLANTA_027,Tecomitl 2,Ósmosis inversa,60.0,30.0,50.0,Eficiente (40-69%)
 PLANTA_035,"Acueducto Tláhuac-La
-Caldera",40.0,0.0,-40.0,-100.0,0,MARGEN
-PLANTA_039,Santa Anita,40.0,0.0,-40.0,-100.0,0,MARGEN
-PLANTA_038,Peñón de Los Baños,50.0,0.0,-50.0,-100.0,0,MARGEN
-PLANTA_040,Escudo Nacional 2,40.0,0.0,-40.0,-100.0,0,MARGEN
-PLANTA_041,S-13,40.0,0.0,-40.0,-100.0,0,MARGEN
-PLANTA_042,Cerillos 2,40.0,0.0,-40.0,-100.0,0,MARGEN
-PLANTA_043,Cerillos 3,40.0,0.0,-40.0,-100.0,0,MARGEN
+Caldera",Ósmosis inversa,40.0,30.0,75.0,Estresada (70-89%)
+PLANTA_011,Granjas San Antonio,Filtración directa,60.0,25.0,41.7,Eficiente (40-69%)
+PLANTA_007,Viga 4,Filtración directa,60.0,25.0,41.7,Eficiente (40-69%)
+PLANTA_000,Trabajadores del Hierro,Filtración directa,50.0,25.0,50.0,Eficiente (40-69%)
+PLANTA_029,Parque Las Antenas,Filtración directa,30.0,22.0,73.3,Estresada (70-89%)
+PLANTA_037,Balbuena 2,Filtración directa,40.0,13.0,32.5,Subutilizada (<40%)
+PLANTA_025,"San Lorenzo Tezonco
+Nuevo",Ósmosis inversa,60.0,12.0,20.0,Subutilizada (<40%)
+PLANTA_013,Iztapalapa 2,Filtración directa,60.0,9.0,15.0,Subutilizada (<40%)
+PLANTA_024,San Lorenzo Tezonco,Ósmosis inversa,6.0,6.0,100.0,Sobrecargada (>=90%)

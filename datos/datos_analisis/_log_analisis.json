@@ -3,10 +3,10 @@
     "notebook": "Analisis.ipynb",
     "fase_dama": "Analyze",
     "version": "v1",
-    "iniciado_en": "2026-05-04T12:24:17",
-    "finalizado_en": "2026-05-04T12:39:23",
+    "iniciado_en": "2026-05-10T01:02:41",
+    "finalizado_en": "2026-05-10T01:04:19",
     "n_consultas": 8,
-    "n_resumenes_csv": 20
+    "n_resumenes_csv": 2
   },
   "3_carga": {
     "vuln_shape": [
@@ -16,218 +16,28 @@
     "n_anios_fugas": 7,
     "geometrias": true
   },
-  "_resumen_q1_top20_ivh": {
-    "descripcion": "Top 20 colonias por IVH (Acto I)",
-    "n_filas": 20,
+  "_resumen_q9_predicciones_xgb": {
+    "descripcion": "Predicciones XGBoost — fugas próximos 6 meses por colonia (Acto IV)",
+    "n_filas": 1837,
     "cols": [
+      "id_colonia",
       "nom_alcaldia",
       "nom_colonia",
-      "pob_colonia",
-      "pobreza_pct_promedio",
-      "pct_excede_nom_local",
-      "fugas_por_10k_hab_total",
-      "tasa_morbilidad_estimada_por_100k",
+      "n_fugas_predicho",
+      "riesgo_nivel",
       "IVH"
     ]
   },
-  "q1": {
-    "tiers": {
-      "alto": 765,
-      "medio": 575,
-      "bajo": 294,
-      "crítico": 203
-    },
-    "concentracion_top10pct_pob": 13.627451098030177
-  },
-  "_resumen_q2_eficiencia_plantas": {
-    "descripcion": "Matriz Planta × Pob atendida × Contaminantes NO tratados (Acto I)",
-    "n_filas": 45,
-    "cols": [
-      "id_planta",
-      "nombre",
-      "capacidad_lps",
-      "pob_atendida",
-      "n_colonias",
-      "contaminantes_no_tratados_riesgo"
-    ]
-  },
-  "_resumen_q2_flujo_contaminantes": {
-    "descripcion": "Excedencias NOM-127 vs capacidad real de las plantas (Acto I)",
-    "n_filas": 8,
-    "cols": [
-      "contaminante",
-      "param_id",
-      "limite_nom_127",
-      "pct_excede_global",
-      "tratado_por_planta"
-    ]
-  },
-  "q2": {
-    "n_plantas": 45,
-    "metales_pesados_no_tratados": true,
-    "excedencias_globales": {
-      "excede_nom_as_tot": 4.1,
-      "excede_nom_pb_tot": 5.6,
-      "excede_nom_hg_tot": 1.0,
-      "excede_nom_cd_tot": 0.0,
-      "excede_nom_n_no3": 0.0,
-      "excede_nom_e_coli": 50.5,
-      "excede_nom_coli_fec": 49.5
-    }
-  },
-  "_resumen_q3_anual_fugas": {
-    "descripcion": "Reportes anuales SACMEX 2018-2024 + lag promedio (Acto II)",
-    "n_filas": 7,
-    "cols": [
-      "anio",
-      "n_fugas",
-      "lag_promedio",
-      "pct_lag_60",
-      "nota"
-    ]
-  },
-  "_resumen_q3_top10_meses_fugas": {
-    "descripcion": "Top 10 meses con mayor volumen de reportes (Acto II)",
-    "n_filas": 10,
-    "cols": [
-      "mes",
-      "n_fugas"
-    ]
-  },
-  "q3": {
-    "promedio_anual_completos": 83966.33333333333,
-    "pct_lag_mas_60d": 0.9909081622229032,
-    "mes_pico": "2024-01-01 00:00:00"
-  },
-  "_resumen_q4_top15_estres": {
-    "descripcion": "Top 15 colonias con mayor estrés de infraestructura (Acto II)",
-    "n_filas": 15,
-    "cols": [
-      "nom_alcaldia",
-      "nom_colonia",
-      "pob_colonia",
-      "n_fugas_total",
-      "fugas_per_capita",
-      "antiguedad_red_proxy",
-      "dist_planta_km",
-      "estres_score"
-    ]
-  },
-  "q4": {
-    "p75_estres": 0.3518201977148583,
-    "p90_estres": 0.4584766170518995,
-    "pob_p75": 2454918,
-    "pob_p90": 972060,
-    "n_colonias_red_40plus": 1342,
-    "pob_red_40plus": 6514465
-  },
-  "_resumen_q5_capacidad_demanda": {
-    "descripcion": "Brecha capacidad-demanda por planta + tecnologías faltantes (Acto II)",
-    "n_filas": 45,
-    "cols": [
-      "id_planta",
-      "nombre",
-      "capacidad_lps",
-      "demanda_lps",
-      "deficit_lps",
-      "pct_deficit",
-      "pob_atendida",
-      "estado_planta"
-    ]
-  },
-  "q5": {
-    "n_plantas_deficit": 7,
-    "deficit_total_lps": 11390.486111111113,
-    "pob_total_atendida": 9209944
-  },
-  "q6_ols": {
-    "r2_pobreza_solo": 0.13062829123369502,
-    "r2_pobreza_ivh": 0.21963335708090326,
-    "r2_incremental": 0.08900506584720824,
-    "coef_ivh": 9744.531437054478
-  },
-  "_resumen_q6_burden_top20": {
-    "descripcion": "Top 20 colonias por casos estimados de morbilidad GI (Acto III)",
-    "n_filas": 20,
-    "cols": [
-      "nom_alcaldia",
-      "nom_colonia",
-      "pob_colonia",
-      "tasa_morbilidad_estimada_por_100k",
-      "casos_morbilidad_estimados",
-      "pobreza_pct_promedio",
-      "IVH",
-      "pct_pob_afectada"
-    ]
-  },
-  "q6_correlaciones": {
-    "IVH": 0.5535343706832464,
-    "Pobreza %": 0.5385999811008366,
-    "Cobertura agua %": -0.9237212484412304,
-    "Cobertura drenaje %": -0.7678281417407016,
-    "Fugas / 10k hab": -0.04634558614570885,
-    "Calidad agua: % excede NOM": 0.4008105366142444,
-    "Antigüedad red (proxy)": -0.21652524402056808,
-    "Dist. planta (km)": 0.27540678301762783
-  },
-  "_resumen_q7_avpp_por_edad": {
-    "descripcion": "AVPP por grupo etario (Acto III)",
-    "n_filas": 11,
-    "cols": [
-      "grupo",
-      "edad_media",
-      "ancho",
-      "casos",
-      "pob_grupo",
-      "tasa_por_100k",
-      "casos_con_secuela",
-      "avpp"
-    ]
-  },
-  "_resumen_q7_top20_riesgo_infantil": {
-    "descripcion": "Top 20 colonias prioritarias para protección infantil (Acto III)",
-    "n_filas": 20,
-    "cols": [
-      "nom_alcaldia",
-      "nom_colonia",
-      "pob_colonia",
-      "pob_menores_estim",
-      "IVH",
-      "riesgo_infantil"
-    ]
-  },
-  "q7": {
-    "pct_avpp_menores_5": 44.48781457611955,
-    "tasa_max_grupo": "<1 año",
-    "hospitalizaciones_estim_top50": 339
-  },
-  "_resumen_q8_top100_priorizacion": {
-    "descripcion": "Top 100 colonias priorizadas para inversión SACMEX (Epílogo)",
-    "n_filas": 100,
-    "cols": [
-      "rank",
-      "nom_alcaldia",
-      "nom_colonia",
-      "pob_colonia",
-      "IVH",
-      "score_priorizacion",
-      "causa_raiz",
-      "intervencion",
-      "casos_morbilidad_estimados",
-      "pob_menores_estim"
-    ]
-  },
-  "q8": {
-    "score_max": 0.8587,
-    "score_p95": 0.22623999999999997,
-    "pob_top100": 1272793,
-    "pob_top200": 2212374,
-    "causa_raiz_distribucion": {
-      "planta": 82,
-      "ambas": 12,
-      "fugas": 3,
-      "otra": 3
-    }
+  "q9_xgb": {
+    "modelo": "XGBoost",
+    "n_features": 20,
+    "rmse_val": 57.98,
+    "mae_val": 19.91,
+    "r2_val": -0.247,
+    "n_colonias_critico": 12,
+    "n_colonias_alto": 49,
+    "figura_1": "q9_xgb_importancia_evaluacion.png",
+    "figura_2": "q9_xgb_mapa_semaforo.png"
   },
   "dashboard_master": {
     "n_colonias": 1837,
